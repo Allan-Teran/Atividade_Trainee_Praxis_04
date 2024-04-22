@@ -55,7 +55,7 @@ body {
 .main__container__jogo {
     width: 100%;
     height: 1216;
-    background-image: url("assets/images/Silksong-jogo-06.png");
+    background-image: url(../images/Silksong-jogo-06.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -63,7 +63,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-top: 168px;
+    
 }
 
 .container__jogo__caixa {
@@ -71,6 +71,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 168px;
 }
 
 .jogo__caixa__container1 {

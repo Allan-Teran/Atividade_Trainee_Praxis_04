@@ -117,6 +117,7 @@ body {
 .container1__logo {
     width: auto;
     height: 300px;
+    max-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,6 +132,7 @@ body {
     margin-top: 60px;
     width: auto;
     height: 472px;
+    max-height: 472px;
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -144,4 +146,40 @@ body {
     box-shadow: 0px -4px 12px rgba(255, 255, 255, 0.6);
 }
 
+.main__container__plataforma {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
 
+.container__plataforma__empresas {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* TODAS AS LOGOS PQ EU N SEI MEXER COM TD AO MSM TEMPO */
+
+.empresas__images__steam {
+
+}
+
+.empresas__images__humble {
+
+}
+
+.empresas__images__switch {
+
+}
+
+.empresas__images__xbox {
+
+}
+
+.empresas__images__gog {
+    
+}

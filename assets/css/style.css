@@ -8,6 +8,7 @@
 
 body {
     background-color: black;
+    color: var(--cor-fonte);
     font-family: "Montserrat", sans-serif;
 }
 
@@ -102,7 +103,7 @@ body {
     font-size: 17.33px;
     font-weight: bold;
     border: 2px solid white;
-    border-radius: 20px;
+    border-radius: 30px;
     padding-top: 8px;
     padding-right: 20px;
     padding-bottom: 8px;
@@ -114,8 +115,8 @@ body {
 }
 
 .container1__logo {
-    width: 550px;
-    height: 300px;
+    width: 600px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,9 +131,9 @@ body {
     margin-top: 60px;
     width: 875px;
     height: 472px;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .jogo__container2__image {
@@ -142,3 +143,5 @@ body {
     box-shadow: -4px 0px 8px rgba(255, 255, 255, 0.5);
     box-shadow: 0px -4px 12px rgba(255, 255, 255, 0.6);
 }
+
+

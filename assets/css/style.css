@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --cor-fonte: #ECECEC;
+}
+
 body {
     background-color: black;
     font-family: "Montserrat", sans-serif;
@@ -33,6 +37,12 @@ body {
 .nav__item {
     font-weight: bold;
     font-size: 16px;
+    color: var(--cor-fonte);
+}
+
+.trailer {
+    text-decoration: none;
+    color: initial;
 }
 
 .item__team {
@@ -101,7 +111,7 @@ body {
 }
 
 .container1__logo {
-    width: 100%;
+    width: 587px;
     height: 306px;
     display: flex;
     justify-content: center;
@@ -110,8 +120,8 @@ body {
 }
 
 .jogo__container1__logo__image {
-    width: 55%;
-    height: auto;
+    width: 960px;
+    height: 472px;
 }
 
 .jogo__caixa__container2 {

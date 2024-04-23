@@ -3,6 +3,7 @@
 
 :root {
     --cor-fonte: #ECECEC;
+    --cor-copyright: #939393;
 }
 
 body {
@@ -83,6 +84,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     margin-top: 168px;
+    margin-bottom: 60px;
 }
 
 .jogo__caixa__container1 {
@@ -91,7 +93,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 80px;
+    padding-bottom: 16px;
     
 }
 
@@ -108,24 +110,25 @@ body {
     line-height: 150%;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .container1__logo {
-    width: 587px;
-    height: 306px;
+    width: 550px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
 }
 
 .jogo__container1__logo__image {
-    width: 960px;
-    height: 472px;
+    width: 100%;
+    height: 100%;
 }
 
 .jogo__caixa__container2 {
-    width: 60%;
+    margin-top: 60px;
+    width: 875px;
     height: 472px;
     display: flex;
     align-items: center;

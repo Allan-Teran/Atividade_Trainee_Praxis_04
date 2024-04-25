@@ -180,6 +180,7 @@ body {
     height: 1464px;
     margin-top: 25px;
     gap: 25px;
+    margin-bottom: 25px;
 }
 
 .container__historia__titulo {
@@ -242,6 +243,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .screenshots__img {
@@ -260,7 +263,6 @@ body {
 }
 
 .footer__main {
-    background-color: yellow;
     display: flex;
     justify-content: space-around;
     align-items: start;
@@ -271,7 +273,6 @@ body {
 }
 
 .footer__main__caixa {
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -281,6 +282,18 @@ body {
     align-items: start;
     gap: 40px;
 }
+
+
+/* essa classe vai ficar como uma lembrança do meu tempo perdido tentando resolver e */
+/* da raiva que eu senti não sabendo o problema */
+/* .footer__main__caixa {
+    max-width: 180px;
+    max-height: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+} */
 
 .main__caixa__titulo {
     font-size: 24px;
@@ -363,13 +376,12 @@ body {
     text-decoration: none;
 }
 
-.footer__main__caixa {
-    max-width: 180px;
-    max-height: 282px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: end;
+/* eu fui vencido pela imagem
+não consegui colocar ela no fim do footer */
+
+.eu__tentei {
+    max-width: 138px;
+    max-height: 105px;
 }
 
 .main__caixa__logo {
